@@ -2,13 +2,19 @@
 <html>
 <head>
 <title>Youtube Music Questionnaire</title>
+<link rel="stylesheet" href = "styles.css">
 </head>
+<body>
+    <div class = "formDetail">
+        <div class = "bottomBorder">
 <h1>Youtube Music Questionnaire</h1><br/>
 <p>https://music.youtube.com/</p>
-<img style = "height: 50px; width: 50px;"src = "./youtubeMusic.jpg" alt = "Youtube Music" href = "https://music.youtube.com/">
-<form action = "" method = "POST">
+<a href = "https://music.youtube.com/"><img src = "./youtubeMusic.jpg" alt = "Youtube Music" ></a>
+</div>
+<div class = "center">
+<form action = "" method = "POST" >
     <div>
-        <h3>Does the website look inviting?</h3>
+        <h3>How inviting does the website look?</h3>
         <input type  = "radio" id = "veryInviting" name = "howInviting">
         <label for = "veryInviting">Very Inviting</label><br/>
         <input type  = "radio" id = "inviting" name = "howInviting">
@@ -31,12 +37,13 @@
         <textarea id = "useYMusic" rows = 3 cols="50">Please explain your choices here...</textarea>
     </div>
     <div>
-        <h3>Not sure (dropdown menu)</h3>
+        <h3>How is the sound quality of the music?</h3>
         <select>
-            <option></option>
-            <option></option>
-            <option></option>
-            <option></option>
+            <option value = "Excellent">Excellent</option>
+            <option value = "Very Good">Very Good</option>
+            <option value = "Good">Good</option>
+            <option value = "Bad">Bad</option>
+            <option value = "Very Bad">Very Bad</option>
         </select>
     </div>
     <div>
@@ -44,9 +51,11 @@
         <textarea id = "comment" rows = 3 cols="50"></textarea><br/><br/>
     </div>
     <div>
-        <input type = "submit" value = "Submit">
+        <input type = "submit" value = "Submit" class = "submitButton">
     </div>
 </form>
+</div>
+</div>
 </body>
 
 </html>

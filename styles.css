@@ -1,0 +1,35 @@
+body{
+    background-image: radial-gradient(blue,gold);
+}
+.formDetail{
+    
+    border: 2px solid black;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right:70px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+img{
+    width: 100%;
+    max-width:951.5px
+}
+textarea{
+    width:100%;
+    max-width: fit-content;
+}
+.bottomBorder{
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.submitButton{
+    height:60px;
+    width:200px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
