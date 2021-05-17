@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Youtube Music Questionnaire</title>
+</head>
+<h1>Youtube Music Questionnaire</h1><br/>
+<p>https://music.youtube.com/</p>
+<img style = "height: 50px; width: 50px;"src = "./youtubeMusic.jpg" alt = "Youtube Music" href = "https://music.youtube.com/">
+<form action = "" method = "POST">
+    <div>
+        <h3>Does the website look inviting?</h3>
+        <input type  = "radio" id = "veryInviting" name = "howInviting">
+        <label for = "veryInviting">Very Inviting</label><br/>
+        <input type  = "radio" id = "inviting" name = "howInviting">
+        <label for = "inviting">Inviting</label><br/>
+        <input type  = "radio" id = "modInviting" name = "howInviting">
+        <label for = "modInviting">Moderately Inviting</label><br/>
+        <input type  = "radio" id = "notInviting" name = "howInviting">
+        <label for = "notInviting">Not Inviting</label>
+    </div>
+    <div>
+        <h3>Which elements can be improved?</h3>
+        <input type  = "checkbox" id = "theme" name = "improvements">
+        <label for = "theme">Theme / colours</label><br/>
+        <input type  = "checkbox" id = "recommendations" name = "improvements">
+        <label for = "recommendations">Music recommendations</label><br/>
+        <input type  = "checkbox" id = "layout" name = "improvements">
+        <label for = "layout">Layout</label><br/>
+        <input type  = "checkbox" id = "other" name = "improvements">
+        <label for = "other">Other</label><br/><br/>
+        <textarea id = "useYMusic" rows = 3 cols="50">Please explain your choices here...</textarea>
+    </div>
+    <div>
+        <h3>Not sure (dropdown menu)</h3>
+        <select>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+        </select>
+    </div>
+    <div>
+        <h3>Additional Comments</h3>
+        <textarea id = "comment" rows = 3 cols="50"></textarea><br/><br/>
+    </div>
+    <div>
+        <input type = "submit" value = "Submit">
+    </div>
+</form>
+</body>
+
+</html>
