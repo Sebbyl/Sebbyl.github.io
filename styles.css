@@ -26,10 +26,19 @@ textarea{
 }
 .submitButton{
     height:60px;
-    width:200px;
+    width:100%;
+    
 }
 .center{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+@font-face {
+    font-family: "signature";
+    src: url(Pattaya-Regular.ttf);
+}
+footer{
+    font-family: "signature";
+    color: #3477eb;
 }
