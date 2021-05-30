@@ -14,41 +14,45 @@
         <button id = "products" onclick="navProduct()">Products</button>
         <button id = "cart" onclick="navCart()">Cart</button>
     </div>
-    <div>
+    <div class = "format">
 
         <h3>Products for you</h3>
         <p>Here are the available products based on your preferences</p>
         <div id = lactoseIntolerant>
         <input type = "checkbox" id = "milk" value = "milk" class = "product">
-        <label>Milk</label><br/>
+        <label>Milk - $8</label><br/>
         <input type = "checkbox" id = "yogurt" value = "yogurt" class = "product">
-        <label>Yogurt</label><br/>
+        <label>Yogurt - $6</label><br/>
         </div>
         <div id = "vegetarian">
         <input type = "checkbox" id = "porkChop" value = "porkChop" class = "product">
-        <label>Pork Chop</label><br/>
+        <label>Pork Chop - $20</label><br/>
         <input type = "checkbox" id = "tenderloin" value = "tenderloin" class = "product">
-        <label>Tenderloin Steak</label><br/>
+        <label>Tenderloin Steak - $40</label><br/>
         <input type = "checkbox" id = "egg" value = "egg" class = "product">
-        <label>Egg</label><br/>
+        <label>Egg -$5</label><br/>
         </div>
         <div id = "nutAllergy">
         <input type = "checkbox" id = "peanut" value = "peanut" class = "product">
-        <label >Peanuts</label><br/>
+        <label >Peanuts - $13</label><br/>
         <input type = "checkbox" id = "cashew" value = "cashew" class = "product">
-        <label>Cashews</label><br/>
+        <label>Cashews - $14</label><br/>
         </div>
         <div id = glutenFree>
         <input type = "checkbox" id = "bread" value = "bread" class = "product">
-        <label>Bread</label><br/>
+        <label>Bread -$10</label><br/>
         <input type = "checkbox" id = "cereal" value = "cereal" class = "product">
-        <label>Cereal</label>
+        <label>Cereal -$8</label><br/>
+        <input type = "checkbox" id = "bagel" value = "bagel" class = "product">
+        <label>Bagels - $3</label>
         </div>
         <br/>
         <button id = prevPage onclick="navClient()">Previous Page</button>
         <button id = nextPage onclick="saveProduct()">Next Page</button>
     </div>
-
+    <footer>
+        <p>Website designed by: Sebstien Leduc</p>
+    </footer>
     <script src = ../javascript/main.js></script>
 </body>
 </html>

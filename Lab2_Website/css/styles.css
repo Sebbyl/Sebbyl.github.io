@@ -20,6 +20,17 @@ body{
     background-color: darkgray;
     color: white;
 }
+@font-face {
+    font-family: "signature";
+    src: url(Pattaya-Regular.ttf)
+}
+footer{
+    font-family:"signature";
+    font-size:10px;
+}
+.format{
+    padding:20px
+}
 /* .navBar a:active{
     background-color: lightcoral;
 } */

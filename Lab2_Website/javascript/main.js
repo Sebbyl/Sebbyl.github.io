@@ -123,6 +123,10 @@ function cartLoad(){
             cur = "Cereal"
             price = 8
         }
+        else if (item == "bagel"){
+            cur = "Bagel"
+            price = 3
+        }
         totPrice = totPrice + price
         let li = document.createElement("li")
         li.innerText = cur
