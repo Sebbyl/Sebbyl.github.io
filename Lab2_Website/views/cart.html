@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../css/styles.css">
+    
+    <title>Document</title>
+</head>
+<body onload="cartLoad()">
+    <div class = "navBar">
+        <button id = "client" onclick="navClient()">client</button>
+        <button id = "products" onclick="navProduct()">Products</button>
+        <button id = "cart" onclick="navCart()">Cart</button>
+    </div>
+    <div>
+        <h3>Your Cart</h3>
+        <p>Here are the items you selected:</p>
+            <div >
+                <ul id = "productsListed">
+
+                </ul>
+            </div>
+            <p id = "totalPrice">Total Price: </p><br/><br/>
+            <button id = prevPage onclick="navProduct()">Previous Page</button>
+    </div>
+    <script src = ../javascript/main.js></script>
+</body>
+</html>

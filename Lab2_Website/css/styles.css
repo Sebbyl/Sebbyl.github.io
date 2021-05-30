@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+.navBar{
+    background-color: lightgray;
+    overflow: hidden;
+    height: 50px;
+}
+.navBar button{
+    float:left;
+    background-color: lightgray;
+    width:auto;
+    height:100%;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+}
+.active, .navBar button:hover {
+    background-color: darkgray;
+    color: white;
+}
+/* .navBar a:active{
+    background-color: lightcoral;
+} */
